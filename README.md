@@ -1,5 +1,11 @@
 # CostcoRentalCarBooking
-This program is used to check Costco Rental Car prices. Once you book rental cars, sometimes prices go down.
-This code takes the booked price from your account and checks the current price for the same and emails you if prices
-have gone down.
-You need to modify config_file to adjust to your account
+
+Language & Library : Java, Selenium, Page Object Model
+
+Flow :
+      1. Update the "Config.file" file with the login credentials.
+      2. Program logs into your Costco Travel account
+      3. Opens the Rental car booking information
+      4. Finds the current price
+      5. If the current price is lower, sends the e-mail.
+
